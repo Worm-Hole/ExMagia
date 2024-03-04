@@ -1,0 +1,1 @@
+function magia:main/calc/maxmana

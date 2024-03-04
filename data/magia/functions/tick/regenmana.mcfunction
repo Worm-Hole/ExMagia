@@ -1,0 +1,1 @@
+execute as @a if score @s Magia.ManaRegenStop matches 0 run function magia:core/regen

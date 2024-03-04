@@ -1,0 +1,1 @@
+particle cloud ~ ~ ~ 100 100 100 1 20000 force

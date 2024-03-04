@@ -1,0 +1,1 @@
+$data modify storage magia: List insert $(index) from storage magia: add

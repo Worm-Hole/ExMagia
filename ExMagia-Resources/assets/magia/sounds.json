@@ -1,0 +1,6 @@
+{
+  "catastropha_general": {"sounds": ["magia:general/catastropha"]},
+  "magnus_general": {"sounds": ["magia:general/magnus"]},
+  "medius_general": {"sounds": ["magia:general/medius"]},
+  "minor_general": {"sounds": ["magia:general/minor"]}
+}

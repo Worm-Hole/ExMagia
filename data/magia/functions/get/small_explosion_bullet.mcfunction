@@ -1,0 +1,1 @@
+give @s stick{display:{Name:'{"text":"爆発弾の銃","color":"light_purple"}',Lore:['{"text":"消費マナ 1000"}']},CustomModelData:2,Magia:{id:"magnus/small_explosion_bullet",click:{type:simple}}} 1
