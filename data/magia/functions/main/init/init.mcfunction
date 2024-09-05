@@ -10,5 +10,6 @@ scoreboard players set $Magia Magia.Settings.MaxMana.Perlevel 100
 scoreboard players set $Magia Magia.Settings.ManaRegen.TimeMult 100
 
 scoreboard players set $Magia Magia.Settings.Player.GreatGrief 1
+scoreboard players set $Magia Magia.Settings.World.WorldEffect 1
 
 scoreboard players set $Magia Magia.Init 1

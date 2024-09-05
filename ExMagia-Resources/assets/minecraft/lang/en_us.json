@@ -1,6 +1,8 @@
 {
-    "death.attack.mana": "%1$s was killed by %2$s",
-    "death.attack.mana.item": "%1$s was killed by %2$s using %3$s",
-    "death.attack.catastropha_lightning": "%1$s' obliterated %2$s",
-    "death.attack.catastropha_lightning.item": "%1$s obliterated %2$s using %1$s"
+    "death.attack.magia_mana": "%1$s was killed by %2$s",
+    "death.attack.magia_mana.item": "%1$s was killed by %2$s using %3$s",
+    "death.attack.magia_catastropha_lightning": "%1$s' obliterated %2$s",
+    "death.attack.magia_catastropha_lightning.item": "%1$s obliterated %2$s using %1$s",
+    "death.attack.magia_explosion": "%1$s' obliterated %2$s",
+    "death.attack.magia_explosion.item": "%1$s obliterated %2$s using %1$s"
 }

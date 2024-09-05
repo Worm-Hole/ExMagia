@@ -1,6 +1,8 @@
 {
-    "death.attack.mana": "%1$sは%2$sに魔力で撃ち抜かれた",
-    "death.attack.mana.item": "%2$sが魔力を使って%1$sを%3$sで撃ち抜いた",
-    "death.attack.catastropha_lightning": "%2$sは%1$sを破滅的な雷で消し炭にした",
-    "death.attack.catastropha_lightning.item": "%2$sが%3$sの破滅的な雷で%1$sを消し炭にした"
+    "death.attack.magia_mana": "%1$sは%2$sに魔力で撃ち抜かれた",
+    "death.attack.magia_mana.item": "%2$sが魔力を使って%1$sを%3$sで撃ち抜いた",
+    "death.attack.magia_catastropha_lightning": "%2$sは%1$sを破滅的な雷で消し炭にした",
+    "death.attack.magia_catastropha_lightning.item": "%2$sが%3$sの破滅的な雷で%1$sを消し炭にした",
+    "death.attack.magia_explosion": "%2$sは%1$sを爆裂魔法で消し去った",
+    "death.attack.magia_explosion.item": "%2$sが%3$sの爆裂魔法で%1$sを消し去った"
 }

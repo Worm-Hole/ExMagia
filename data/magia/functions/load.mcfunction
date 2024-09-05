@@ -29,6 +29,9 @@ scoreboard objectives add Magia.Settings.ManaRegen.TimeMult dummy
 #world-class Grief 0=disabled 1=enabled defalt:1
 scoreboard objectives add Magia.Settings.Player.GreatGrief dummy
 
+#world-effect(weather change, world-wide particle, etc.) 0=disabled 1=enabled defalt:1
+scoreboard objectives add Magia.Settings.World.WorldEffect dummy
+
 
 
 #回復処理
@@ -56,6 +59,9 @@ scoreboard objectives add Magia.PlayerIDmem dummy
 scoreboard objectives add Magia.EntityID dummy
 scoreboard objectives add Magia.EntityIDmem dummy
 
+#特定のEntityに結びついたEntityの複数管理用ID(重複OK)
+scoreboard objectives add Magia.SecondEntityID dummy
+
 #判定
 scoreboard objectives add Magia.Player.bossbar.create dummy
 scoreboard objectives add Magia.Init dummy
@@ -70,6 +76,11 @@ scoreboard objectives add Magia.Stun dummy
 
 #ログアウト確認
 scoreboard objectives add Magia.Leave minecraft.custom:minecraft.leave_game
+
+#死亡確認
+scoreboard objectives add Magia.Death deathCount
+
+
 
 #初期設定
 execute unless score $Magia Magia.Init matches -2147483648..2147483647 run function magia:main/init/init

@@ -1,0 +1,1 @@
+$data modify entity @s transformation set value {left_rotation:{axis:[0f,1f,0f],angle:$(rotate)f},right_rotation:[1f,0f,0f,1f],translation:[0f,0f,0f],scale:[$(size)f,0.1f,$(size)f]}

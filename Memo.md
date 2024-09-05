@@ -13,6 +13,8 @@ Magia.Settings.ManaRegen.TimeMult マナ回復必要時間倍率 10000で100%
 
 Magia.Settings.Player.GreatGrief 0で破滅的な破壊をもたらす魔法を無効化 1で使用可能(まだない)
 
+Magia.Settings.World.WorldEffect 0で天候の変化やワールド規模のパーティクル表示などを無効化、1で有効化
+
 ## 初期値
 
 MaxMana 最大マナ

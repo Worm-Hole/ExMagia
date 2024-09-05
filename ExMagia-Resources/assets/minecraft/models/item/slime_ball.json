@@ -4,6 +4,9 @@
         "layer0": "minecraft:item/slime_ball"
     },
     "overrides": [
-        {"predicate":{"custom_model_data":1000},"model": "item/arcana/ls256"}
+        {"predicate":{"custom_model_data":1000},"model": "item/arcana/ls256"},
+        {"predicate":{"custom_model_data":1100},"model": "item/arcana/exp0"},
+        {"predicate":{"custom_model_data":1101},"model": "item/arcana/exp1"},
+        {"predicate":{"custom_model_data":1102},"model": "item/arcana/exp2"}
     ]
 }

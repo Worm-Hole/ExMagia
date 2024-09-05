@@ -1,0 +1,1 @@
+give @s stick{display:{Name:'{"text":"エクスプロージョン","color":"light_purple"}',Lore:['{"text":"消費マナ 50000"}']},CustomModelData:1001,Magia:{id:"catastropha/explosion",click:{type:simple},target:{type:"target_block",radius:128,particle:explosion}}} 1

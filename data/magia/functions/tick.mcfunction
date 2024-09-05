@@ -3,9 +3,8 @@ function magia:tick/reset
 execute as @a[scores={Magia.ManaRegenStop=1..}] run scoreboard players remove @s Magia.ManaRegenStop 1
 execute as @a[scores={Magia.Cooldown=1..}] run scoreboard players remove @s Magia.Cooldown 1
 execute as @e[scores={Magia.lifetick=1..}] run scoreboard players remove @s Magia.lifetick 1
-execute as @a[scores={Magia.Stun=1..}] run scoreboard players remove @s Magia.Stun 1
-execute as @a[scores={Magia.Stun=1..}] run effect give @s slowness 1 100 true
-execute as @a[scores={Magia.Stun=1..}] run effect give @s jump_boost 1 238 true
+execute as @e[scores={Magia.Death=1..}] run function magia:tick/death
+function magia:tick/effect
 function magia:tick/regenmana
 
 execute as @e[tag=Magia.Tick] at @s run function magia:tick/magia
