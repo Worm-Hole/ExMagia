@@ -1,7 +1,7 @@
 execute unless score @s Magia.Mana matches 1000.. run tellraw @s [{"text":"マナが不足しています。","color":"red"},{"text":"必要マナ:1000"}]
 execute unless score @s Magia.Mana matches 1000.. run return fail
-scoreboard players set @s Magia.Cooldown 5
-scoreboard players set @s Magia.ManaRegenStop 20
+scoreboard players add @s Magia.Cooldown 5
+scoreboard players add @s Magia.ManaRegenStop 20
 scoreboard players remove @s Magia.Mana 1000
 
 playsound entity.creeper.primed player @a[distance=..64] ~ ~ ~ 3 1

@@ -1,1 +1,1 @@
-$function $(dir)$(run)
+$function $(dir)/$(run)

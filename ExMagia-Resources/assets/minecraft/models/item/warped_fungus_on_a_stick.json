@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:item/handheld_rod",
+  "textures": {
+    "layer0": "minecraft:item/warped_fungus_on_a_stick"
+  },
+  "overrides": [
+    {"predicate":{"custom_model_data":1},"model": "item/magia_rod/small_explosion"},
+    {"predicate":{"custom_model_data":2},"model": "item/magia_rod/small_explosion_bullet"},
+    {"predicate":{"custom_model_data":3},"model": "item/magia_rod/teleport"},
+    {"predicate":{"custom_model_data":4},"model": "item/magia_rod/mana_bullet"},
+    {"predicate":{"custom_model_data":1000},"model": "item/magia_rod/lightning_sphere"},
+    {"predicate":{"custom_model_data":1001},"model": "item/magia_rod/explosion"}
+  ]
+}

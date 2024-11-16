@@ -9,6 +9,8 @@
 * 魔法弾の杖/manabullet
 * テレポートの杖/teleport
 * ライトニング・スフィア/lightning_sphere
+* エクスプロージョン/explosion
+* アローレイン/arrowrain *未完成 *パフォーマンスに重大な欠陥あり
 
 ## 設定
 一部の設定(特にマナ関連)は負荷軽減のためにreloadかリログするまで適用されない

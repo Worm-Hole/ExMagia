@@ -1,5 +1,8 @@
 #計算用
 scoreboard objectives add Magia.Temp dummy
+scoreboard objectives add Magia.Temp.2 dummy
+scoreboard objectives add Magia.Temp.3 dummy
+scoreboard objectives add Magia.Temp.4 dummy
 
 #マナ管理
 scoreboard objectives add Magia.Mana dummy
@@ -79,6 +82,13 @@ scoreboard objectives add Magia.Leave minecraft.custom:minecraft.leave_game
 
 #死亡確認
 scoreboard objectives add Magia.Death deathCount
+
+#Magia
+scoreboard objectives add Magia.Loop dummy
+scoreboard objectives add Magia.Click.FungusStick minecraft.used:minecraft.warped_fungus_on_a_stick
+
+scoreboard objectives add Magia.Bow.Charge dummy
+scoreboard objectives add Magia.Bow.Use minecraft.used:minecraft.bow
 
 
 

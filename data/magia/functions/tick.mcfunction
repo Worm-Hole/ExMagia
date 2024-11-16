@@ -4,7 +4,7 @@ execute as @a[scores={Magia.ManaRegenStop=1..}] run scoreboard players remove @s
 execute as @a[scores={Magia.Cooldown=1..}] run scoreboard players remove @s Magia.Cooldown 1
 execute as @e[scores={Magia.lifetick=1..}] run scoreboard players remove @s Magia.lifetick 1
 execute as @e[scores={Magia.Death=1..}] run function magia:tick/death
-function magia:tick/effect
+execute as @a run function magia:tick/effect
 function magia:tick/regenmana
 
 execute as @e[tag=Magia.Tick] at @s run function magia:tick/magia

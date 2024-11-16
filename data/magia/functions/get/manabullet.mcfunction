@@ -1,1 +1,1 @@
-give @s stick{display:{Name:'{"text":"魔法弾の杖","color":"light_purple"}',Lore:['{"text":"消費マナ 50"}']},CustomModelData:4,Magia:{id:"minor/manabullet",click:{type:simple}}} 1
+give @s warped_fungus_on_a_stick{display:{Name:'{"text":"魔法弾の杖","color":"light_purple"}',Lore:['{"text":"消費マナ:50","color":"light_purple"}','{"text":"魔法の攻撃を発射します。","color":"aqua"}','{"text":"貫通します。","color":"aqua"}']},CustomModelData:4,Magia:{id:"minor/manabullet",click:{type:fungusstick}}} 1

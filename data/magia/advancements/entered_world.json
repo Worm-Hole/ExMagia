@@ -5,6 +5,6 @@
     }
   },
   "rewards": {
-    "function": "magia:main/init/player/join"
+    "function": "magia:player/join"
   }
 }

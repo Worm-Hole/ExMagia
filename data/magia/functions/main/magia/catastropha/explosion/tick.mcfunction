@@ -7,7 +7,7 @@ execute if score @s Magia.Memory2 matches 80.. unless score @s Magia.Memory matc
 scoreboard players add @s Magia.Memory2 1
 execute if score @s Magia.Memory2 matches 80..85 run function magia:main/magia/catastropha/explosion/process/time
 execute if score @s Magia.Memory2 matches 85 run function magia:main/magia/catastropha/explosion/process/damage
-execute if score @s Magia.Memory2 matches 98.. run function magia:main/magia/catastropha/explosion/process/kill
+execute if score @s Magia.Memory2 matches 98.. run function magia:lib/id/killentity
 
 tag @s add Magia.This
 

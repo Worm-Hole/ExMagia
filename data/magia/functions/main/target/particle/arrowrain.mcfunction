@@ -1,0 +1,1 @@
+execute positioned ~ ~10 ~ run function magia:main/target/particle/run/arrowrain with storage magia:

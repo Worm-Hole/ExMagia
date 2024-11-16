@@ -1,1 +1,1 @@
-give @s stick{display:{Name:'{"text":"テレポートの杖","color":"light_purple"}',Lore:['{"text":"消費マナ 200"}']},CustomModelData:3,Magia:{id:"medius/teleport",click:{type:simple},target:{type:"target_block",radius:64,particle:endrod_vert}}} 1
+give @s warped_fungus_on_a_stick{display:{Name:'{"text":"テレポートの杖","color":"light_purple"}',Lore:['{"text":"消費マナ:200","color":"light_purple"}','{"text":"目標位置(視線先)にテレポートします。","color":"aqua"}']},CustomModelData:3,Magia:{id:"medius/teleport",click:{type:fungusstick},target:{type:"target_block",radius:64,particle:endrod_vert}}} 1

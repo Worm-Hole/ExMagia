@@ -12,7 +12,7 @@ scoreboard players set @e[tag=Magia.This2] Magia.SecondEntityID 0
 
 tag @e[tag=Magia.This2] remove Magia.This2
 
-summon item_display ~ ~50 ~ {brightness:{sky:15,block:15},Tags:["Magia.This2"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[1f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,0.1f,1f]},item:{id:"minecraft:slime_ball",Count:1b,tag:{CustomModelData:1100}}}
+summon item_display ~ ~50 ~ {brightness:{sky:15,block:15},Tags:["Magia.This2"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[1f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,0.1f,1f]},item:{id:"minecraft:slime_ball",Count:1b,tag:{CustomModelData:1101}}}
 scoreboard players operation @e[tag=Magia.This2] Magia.EntityIDmem = @e[tag=Magia.This,limit=1] Magia.EntityID
 scoreboard players set @e[tag=Magia.This2] Magia.SecondEntityID 1
 

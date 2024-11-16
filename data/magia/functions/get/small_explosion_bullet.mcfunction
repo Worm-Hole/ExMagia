@@ -1,1 +1,1 @@
-give @s stick{display:{Name:'{"text":"爆発弾の銃","color":"light_purple"}',Lore:['{"text":"消費マナ 1000"}']},CustomModelData:2,Magia:{id:"magnus/small_explosion_bullet",click:{type:simple}}} 1
+give @s warped_fungus_on_a_stick{display:{Name:'{"text":"爆発弾の銃","color":"light_purple"}',Lore:['{"text":"消費マナ:1000","color":"light_purple"}','{"text":"爆発する、魔法の攻撃を発射します。","color":"aqua"}','{"text":"ブロックに当たるか、2秒経つと爆発します。","color":"aqua"}']},CustomModelData:2,Magia:{id:"magnus/small_explosion_bullet",click:{type:fungusstick}}} 1

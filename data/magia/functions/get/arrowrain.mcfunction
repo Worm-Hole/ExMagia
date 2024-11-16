@@ -1,0 +1,1 @@
+give @s bow{display:{Name:'{"text":"アローレイン","color":"aqua"}',Lore:['{"text":"消費マナ 300~2000"}']},Magia:{id:"magnus/arrowrain",click:{type:bow},target:{type:"custom",radius:50,run:"function magia:main/magia/magnus/arrowrain/target with storage magia:"}}} 1
